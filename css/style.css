@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    min-width: 100%;
+    background-color: #F1FAEE;
+}
+
+
+nav {
+    top: 0;
+    position: fixed;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #457B9D;
+    width: 100%;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+ul {
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    margin-right: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* wel verbinding locatie */
+
+.wel-verbinding {
+    background-color: #1D3557;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.wel-verbinding h2 {
+    color: #FFFFFF;
+}
+
+.locatie-opgeven {
+    padding: 4rem;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locatie h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.locatie p {
+    margin: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.locatie input {
+    width: 35vh;
+    height: 25vh;
+    background-color: #A8DADC;
+}
+
+.foto input {
+    width: 35vh;
+    height: 25vh;
+    background-color: #A8DADC;
+}
+
+.foto p {
+    margin: 10px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.submit-locatie-foto input {
+    width: 25vh;
+    background-color: #E63946;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+/* geen verbinding locatie */
+
+.geen-verbinding {
+    background-color: #1D3557;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.geen-verbinding h2 {
+    color: #FFFFFF;
+}
+
+/* login pagina  */
+
+.login {
+    padding: 3rem;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.select-language {
+    text-align: center;
+    padding: 10px;
+}
+
+.select-language h3 {
+    margin: 10px;
+}
+
+.select-language select {
+    width: 25vh;
+    height: 5vh;
+    border: 3px solid #000;
+}
+
+.select-language h2 {
+    margin: 10px;
+    border: 3px solid #000;
+    padding: 5px;
+}
+
+.select-language p {
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkbox-location {
+    width: 35vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.checkbox-location input {
+    width: 5vh;
+    height: 5vh;
+}
+
+.checkbox-medical-information {
+    width: 35vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-medical-information input {
+    width: 5vh;
+    height: 5vh;
+}
+
+.phone-number input {
+    width: 35vh;
+    height: 5vh;
+    margin: 15px;
+}
+
+.phone-number p {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.docs-resq a {
+    color: #40C8F4;
+}
+
+.terms-of-service {
+    width: 35vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.terms-of-service input {
+    width: 3vh;
+    height: 3vh;
+}
+
+.submit-login input {
+    width: 25vh;
+    background-color: #000;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+/* beschrijfsituatie */
+
+.beschrijf-situatie {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.situatie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.situatie h2 {
+    text-align: center;
+}
+
+.situatie input {
+    margin: 10px;
+    width: 35vh;
+    height: 45vh;
+    background-color: #A8DADC;
+}
+
+.spraakbericht h3{
+    margin-bottom: 10px;
+}
+
+.spraakbericht p {
+    margin-top: 20px;
+    color: #E63946;
+}
+
+.submit-situatie input {
+    width: 25vh;
+    background-color: #E63946;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+/* verzonden */
+
+.verzonden {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.ambulance-onderweg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ambulance-onderweg img {
+    margin-top: 10px;
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-self: center;
+}
+
+.geschatte-tijd {
+    text-align: center;
+}
+
+.geschatte-tijd h2 {
+    margin-bottom: 10px;
+}
+
+.geschatte-tijd p {
+    background-color: #A8DADC;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+.kaart p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tips-en-videos input {
+    width: 25vh;
+    background-color: #E63946;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+/* tips en videos */
+
+.tips-videos {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.timer-video p {
+    background-color: #000000;
+    color: #40C8F4;
+    padding: 20px;
+    font-size: 20px;
+    width: 40vh;
+    text-align: center;
+}
+
+.titel-video p {
+    background-color: #457B9D;
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 20px;
+    width: 40vh;
+    text-align: center;
+}
+
+.video-zelf { 
+    width: 40vh;
+    height: 25vh;
+    background-color: #A8DADC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.video-zelf img {
+    width: 15vh;
+    height: 15vh;
+}
+
+.uitleg-video-tekst {
+   background-color: #A8DADC;
+   width: 40vh;
+   height: 20vh;
+   padding: 10px;
+   border: 1px solid #000;
+}
+
+.vorige-tips-submit input {
+    width: 25vh;
+    background-color: #E63946;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFFFFF;
+    border: 1px solid #000;
+}
